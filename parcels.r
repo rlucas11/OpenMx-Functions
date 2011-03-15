@@ -2,9 +2,11 @@
 #####CREATE PARCEL FUNCTION#####
 ################################
 
+##Created by Rich Lucas
+
 #Need to structure data by Wave, only including items to parcel
 #Relies on 'gtools' package for evaluation of odd and even lines
-#pattern should be in the form of c(n1,n2,n3), where n1, n2, and n3 are the number of items per parcel
+#'Pattern' should be in the form of c(n1,n2,n3), where n1, n2, and n3 are the number of items per parcel
 
 
 parcel <- function(data,items,waves,pattern) {
